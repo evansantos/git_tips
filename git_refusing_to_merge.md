@@ -1,9 +1,9 @@
 # fatal: refusing to merge unrelated histories
 
-
 ### Add --allow-unrelated-histories to solve the `Git fatal error – “refusing to merge unrelated histories”`
 
 Terminal
+
 ```bash
 $ git pull origin master
 
@@ -15,6 +15,7 @@ fatal: refusing to merge unrelated histories
 ### To fix it :
 
 Terminal
+
 ```bash
 $ git pull origin master --allow-unrelated-histories
 
@@ -27,4 +28,5 @@ Merge made by the 'recursive' strategy.
 ```
 
 ### References
-git-merge documentation –allow-unrelated-histories
+
+[https://git-scm.com/docs/git-merge#git-merge---allow-unrelated-histories](git-merge documentation –allow-unrelated-histories)
